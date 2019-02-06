@@ -46,7 +46,7 @@ static const Rule rules[] = {
 	{ "neovim",			NULL,		NULL,	1 << 2,		1,		0,		-1 },
 	{ "emacs",			NULL,		NULL,	1 << 2,		1,		0,		-1 },
 	{ "lyx",			NULL,		NULL,	1 << 3,		1,		0,		-1 },
-	{ "TeXstudio"		NULL,		NULL,	1 << 3,		1,		0,		-1 },
+	{ "TeXstudio",		NULL,		NULL,	1 << 3,		1,		0,		-1 },
 	{ "soffice",		NULL,		NULL,	1 << 4,		1,		0,		-1 },
 	{ "LibreOffice",	NULL,		NULL,	1 << 4,		1,		0,		-1 },
 	{ "zathura",		NULL,		NULL,	1 << 4,		1,		0,		-1 },
