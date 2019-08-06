@@ -97,9 +97,9 @@ static const char *viacmd[] = { "via", NULL };
 static const char *termcmd[]  = { "st", NULL };
 static const char scratchpadname[] = "scratchpad";
 static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "120x34", NULL };
-static const char *vup[] =           { "pactl", "set-sink-volume", "1", "+5%", NULL };
-static const char *vdown[] =         { "pactl", "set-sink-volume", "1", "-5%", NULL };
-static const char *vmute[] =         { "pactl", "set-sink-mute", "1", NULL };
+static const char *vup[] =           { "pactl", "set-sink-volume", "alsa_output.usb-Plantronics_Plantronics_GameCom_780-00.analog-stereo", "+5%", NULL };
+static const char *vdown[] =         { "pactl", "set-sink-volume", "alsa_output.usb-Plantronics_Plantronics_GameCom_780-00.analog-stereo", "-5%", NULL };
+static const char *vmute[] =         { "pactl", "set-sink-mute", "alsa_output.usb-Plantronics_Plantronics_GameCom_780-00.analog-stereo", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
